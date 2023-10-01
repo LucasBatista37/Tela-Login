@@ -7,18 +7,13 @@
     box-sizing: border-box;
 }
 
-body{
-    background: linear-gradient(135deg, #4A90E2, #000);
-    margin: 40px;
-}
-
 #container{
     height: 100vh;
     width: 100%;
+    background: linear-gradient(135deg, #4A90E2, #000);
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
 }
 
 #login_form{
@@ -155,5 +150,3 @@ body{
 #login-botao:hover{
     transform: scale(1.01);
 }
-
-
