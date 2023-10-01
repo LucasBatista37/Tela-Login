@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Login</title>
+</head>
+<body>
+    <main id="container">
+        <form id="login_form">
+            <div id="form-inicio">
+                <h1>Login</h1>
+                <i id="modo" class="fa-solid fa-moon"></i>
+            </div>
+
+            <div id="redes-sociais">
+                <a href="">
+                    <img src="imgs/facebook.png" alt="Facebook logo">
+                </a>
+                <a href="">
+                    <img src="imgs/google.png" alt="Google logo">
+                </a>
+                <a href="">
+                    <img src="imgs/github.png" alt="Github logo">
+                </a>
+            </div>
+
+            <div id="inputs">
+                <div id="input-caixa">
+                    <label for="nome">
+                        Nome
+                        <div class="input-campo">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="nome" name="nome" >
+                        </div>
+                    </label>
+                </div>
+
+                <div id="input-caixa">
+                    <label for="email">
+                        E-mail
+                        <div class="input-campo">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="text" id="email" name="email">
+                        </div>
+                    </label>
+                </div>
+
+                <div id="input-caixa">
+                    <label for="senha">
+                        Senha
+                        <div class="input-campo">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" id="senha" name="senha">
+                        </div>
+                    </label>
+                </div>
+
+                <div id="senha-esquecida">
+                    <a href="#">
+                        Esqueceu a senha?
+                    </a>
+                </div>
+            </div>
+
+            <button type="submit" id="login-botao">
+                Login
+            </button>
+        </form>
+    </main>
+</body>
+</html>
